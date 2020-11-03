@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pycodestyle = "*"
+autopep8 = "*"
+pylint = "*"
+csvkit = "*"
+coverage = "*"
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+selenium = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+start = "python main.py"
+test = "pytest"
+report = "pytest --cov-report term --cov=."
+typecheck = "mypy ."

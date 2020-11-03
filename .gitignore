@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+.vscode/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+config.ini
+.env.production
+main.spec
+
+result.png
+.coverage
+.coverage.*
+coverage.xml
